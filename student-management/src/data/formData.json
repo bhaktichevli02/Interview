@@ -10,15 +10,6 @@
         }
       },
       {
-        "token": "PERSON_AGE",
-        "type": "text",
-        "props": {
-          "title": "Enter your Age",
-          "required": false,
-          "placeholder": "Eg. 25"
-        }
-      },
-      {
         "token": "IS_PERSON_MINOR",
         "type": "checkbox",
         "props": {

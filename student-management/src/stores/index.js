@@ -45,7 +45,7 @@ export default createStore({
   getters: {
     allUsersFiltered: (state) => {
       if (state.search) {
-        const searchLower = state.search.toLowerCase();
+        const searchLower = String(state.search).toLowerCase();
         return state.users.filter(user =>
           user.name.toLowerCase().includes(searchLower) ||
           user.username.toLowerCase().includes(searchLower) ||

@@ -1,0 +1,13 @@
+// src/styles/main.scss
+@use 'vuetify/styles' with (
+  $body-font-family: 'Roboto, sans-serif',
+  $heading-font-family: 'Roboto, sans-serif',
+);
+
+// Your custom styles here
+
+  .v-selection-control__input input {
+    opacity: 1 !important; /* Ensure the checkbox input is visible */
+    height: 50%  !important;
+    top: 0%  !important;
+  }
