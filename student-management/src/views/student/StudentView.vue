@@ -1,22 +1,3 @@
-<!-- <template>
-    <div>
-      <Header />
-      <h1>Student View</h1>
-      <StudentParent />
-    </div>
-  </template>
-
-  <script setup>
-  import StudentParent from '@/components/student/StudentParent.vue';
-  import Header from '@/components/header/Header.vue';
-
-  </script>
-
-  <style scoped>
-  h1 {
-    color: #444;
-  }
-  </style> -->
   <template>
     <v-app>
       <Header style="position: fixed; width: 100%;" />

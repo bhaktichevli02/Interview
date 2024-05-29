@@ -1,27 +1,3 @@
-<!-- <template>
-    <div>
-      <Header />
-      <h1>Dynamic Form</h1>
-      <Form :blocks="formBlocks" @submit="handleFormSubmit" />
-    </div>
-  </template>
-
-  <script setup>
-  import { ref, onMounted } from 'vue';
-  import Form from '@/components/form/Form.vue';
-  import formData from '@/data/formData.json';
-  import Header from '@/components/header/Header.vue';
-
-  const formBlocks = ref([]);
-
-  onMounted(() => {
-    formBlocks.value = formData.blocks;
-  });
-
-  const handleFormSubmit = (formData) => {
-    console.log('Form data submitted:', formData);
-  };
-  </script> -->
   <template>
     <v-app>
       <Header style="position: fixed; width: 100%;" />

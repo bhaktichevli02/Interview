@@ -1,15 +1,3 @@
-<!-- <template>
-    <div>
-      <Header />
-      <UserList />
-    </div>
-  </template>
-
-  <script setup>
-  import UserList from '@/components/user/UserList.vue';
-  import Header from '@/components/header/Header.vue';
-
-  </script> -->
   <template>
     <v-app>
       <Header style="position: fixed; width: 100%;" />
